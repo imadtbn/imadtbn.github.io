@@ -16,6 +16,9 @@ Disallow: /tmp/
 Disallow: /cgi-bin/
 Disallow: /*?*
 
+# Public train-trip pages use a query parameter to select the trip.
+Allow: /dz_portal/sectors/sntf-trip.html?trip=
+
 # السماح بالمحتوى العام والموارد الثابتة
 Allow: /
 Allow: /pages/
@@ -37,6 +40,9 @@ Disallow: /private/
 Disallow: /tmp/
 Disallow: /cgi-bin/
 Disallow: /*?*
+
+# Public train-trip pages use a query parameter to select the trip.
+Allow: /dz_portal/sectors/sntf-trip.html?trip=
 
 # [B.2] الصفحات ذات الأولوية القصوى (1.0 - 0.9)
 # الرئيسية | التربية والتعليم | التعليم العالي | الداخلية
@@ -122,6 +128,9 @@ Disallow: /private/
 Disallow: /tmp/
 Disallow: /cgi-bin/
 Disallow: /*?*
+
+# Public train-trip pages use a query parameter to select the trip.
+Allow: /dz_portal/sectors/sntf-trip.html?trip=
 
 # السماح بالمحتوى العام
 Allow: /
