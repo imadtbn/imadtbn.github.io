@@ -15,6 +15,8 @@ User-agent: *
 Disallow: /tmp/
 Disallow: /cgi-bin/
 Disallow: /*?*
+# السماح بروابط تصنيفات خريطة القطارات
+Allow: /trains-dz/sectors/sntf-map.html?category=
 
 # Public train-trip pages use a query parameter to select the trip.
 Allow: /dz_portal/sectors/sntf-trip.html?trip=
@@ -40,6 +42,8 @@ Disallow: /private/
 Disallow: /tmp/
 Disallow: /cgi-bin/
 Disallow: /*?*
+# السماح بروابط تصنيفات خريطة القطارات
+Allow: /trains-dz/sectors/sntf-map.html?category=
 
 # Public train-trip pages use a query parameter to select the trip.
 Allow: /dz_portal/sectors/sntf-trip.html?trip=
@@ -128,6 +132,8 @@ Disallow: /private/
 Disallow: /tmp/
 Disallow: /cgi-bin/
 Disallow: /*?*
+# السماح بروابط تصنيفات خريطة القطارات
+Allow: /trains-dz/sectors/sntf-map.html?category=
 
 # Public train-trip pages use a query parameter to select the trip.
 Allow: /dz_portal/sectors/sntf-trip.html?trip=
